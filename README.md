@@ -1,7 +1,13 @@
-# Zirchron
+<p align="center">
+  <img src="docs/logo.png" alt="Zirchron logo" height="140">
+</p>
 
-**A desktop application for zircon petrochronology** — from raw analyses to
-publication-ready diagrams in a single, reproducible workflow.
+<h1 align="center">Zirchron</h1>
+
+<p align="center">
+  <strong>A desktop application for zircon petrochronology</strong><br>
+  from raw analyses to publication-ready diagrams in a single, reproducible workflow.
+</p>
 
 Zirchron brings U–Pb geochronology, Lu–Hf isotope evolution, Ti-in-zircon
 thermometry and trace-element / REE geochemistry together in one place, so a
