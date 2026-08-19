@@ -17,9 +17,13 @@ between spreadsheets, statistical packages and drawing programs.
 Developed at the **Laboratorio de Estudios Isotópicos (LEI)**, Instituto de
 Geociencias, UNAM (Juriquilla, México).
 
-> **Status: v1.0 — beta.** Zirchron is in active testing. If you find a bug or
+> **Status: v1.0.1 — beta.** Zirchron is in active testing. If you find a bug or
 > something behaves unexpectedly, please [open an issue](../../issues) — that
 > feedback is exactly what this release is for.
+>
+> **If you are on v1.0, please update.** That build could not export figures to
+> PDF, SVG or EPS, and the figure compositor could not draw any panel
+> ([#1](../../issues/1)). Fixed in v1.0.1.
 
 ---
 
@@ -30,9 +34,14 @@ Zirchron runs on **Windows** and **macOS**. Go to the
 
 | System | Download |
 |---|---|
-| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0-windows-setup.exe` |
-| **macOS** 13+, Apple Silicon | `Zirchron-1.0-arm64.dmg` |
-| **macOS** 13+, Intel | `Zirchron-1.0-intel.dmg` |
+| **macOS** 13+, Apple Silicon | `Zirchron-1.0.1-arm64.dmg` |
+| **macOS** 13+, Intel | `Zirchron-1.0.1-intel.dmg` |
+| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0-windows-setup.exe` (see note) |
+
+> **Windows: v1.0.1 is on its way.** The Windows installer is built on a
+> separate machine, so for a few days the only build available for Windows is
+> v1.0, which still has the export bug described above. If you need PDF/SVG
+> export or the compositor, use macOS for now or wait for v1.0.1.
 
 Step-by-step instructions for both systems, with troubleshooting, are in
 [INSTALL.md](INSTALL.md).
@@ -90,8 +99,8 @@ just above the macOS version:
 
 | That line says | Download |
 |---|---|
-| **Chip:** Apple M1 / M2 / M3 / M4 / M5 | `Zirchron-1.0-arm64.dmg` |
-| **Processor:** Intel Core i5 / i7 / i9 / Xeon | `Zirchron-1.0-intel.dmg` |
+| **Chip:** Apple M1 / M2 / M3 / M4 / M5 | `Zirchron-1.0.1-arm64.dmg` |
+| **Processor:** Intel Core i5 / i7 / i9 / Xeon | `Zirchron-1.0.1-intel.dmg` |
 
 Both files are the same Zirchron, compiled for a different processor. You do
 not need Rosetta, and downloading the wrong one is harmless — macOS simply
@@ -105,7 +114,7 @@ refuses to open it.
    icon next to a shortcut to your **Applications** folder.
 3. **Drag the Zirchron icon onto the Applications folder.** That is the whole
    installation — macOS apps are self-contained, there is no installer wizard.
-4. Eject the disk image (click the ⏏ symbol next to *Zirchron 1.0* in the
+4. Eject the disk image (click the ⏏ symbol next to *Zirchron 1.0.1* in the
    Finder sidebar). You can delete the `.dmg` afterwards.
 5. Open Zirchron from **Launchpad**, from the Applications folder, or via
    Spotlight (⌘ Space → "Zirchron").
