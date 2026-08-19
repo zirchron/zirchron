@@ -36,12 +36,7 @@ Zirchron runs on **Windows** and **macOS**. Go to the
 |---|---|
 | **macOS** 13+, Apple Silicon | `Zirchron-1.0.1-arm64.dmg` |
 | **macOS** 13+, Intel | `Zirchron-1.0.1-intel.dmg` |
-| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0-windows-setup.exe` (see note) |
-
-> **Windows: v1.0.1 is on its way.** The Windows installer is built on a
-> separate machine, so for a few days the only build available for Windows is
-> v1.0, which still has the export bug described above. If you need PDF/SVG
-> export or the compositor, use macOS for now or wait for v1.0.1.
+| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0.1-windows-setup.exe` |
 
 Step-by-step instructions for both systems, with troubleshooting, are in
 [INSTALL.md](INSTALL.md).
@@ -61,7 +56,7 @@ Step-by-step instructions for both systems, with troubleshooting, are in
 **Steps**
 
 1. Go to the [**Releases**](../../releases) page and download
-   `Zirchron-1.0-windows-setup.exe`.
+   `Zirchron-1.0.1-windows-setup.exe`.
 2. Double-click it. Windows will show a blue **"Windows protected your PC"**
    screen — click **More info**, then **Run anyway** (see below).
 3. Follow the wizard: choose a language, accept the licence, confirm the

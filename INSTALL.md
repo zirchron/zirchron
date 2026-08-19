@@ -33,7 +33,7 @@ processor.
 ## 2. Download
 
 Go to the [Releases](../../releases) page and download
-**`Zirchron-1.0-windows-setup.exe`** (about 81 MB). It will land in your
+**`Zirchron-1.0.1-windows-setup.exe`** (about 81 MB). It will land in your
 **Downloads** folder.
 
 ---
