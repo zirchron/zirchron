@@ -17,13 +17,20 @@ between spreadsheets, statistical packages and drawing programs.
 Developed at the **Laboratorio de Estudios Isotópicos (LEI)**, Instituto de
 Geociencias, UNAM (Juriquilla, México).
 
-> **Status: v1.0.1 — beta.** Zirchron is in active testing. If you find a bug or
+> **Status: v1.2 — beta.** Zirchron is in active testing. If you find a bug or
 > something behaves unexpectedly, please [open an issue](../../issues) — that
 > feedback is exactly what this release is for.
 >
-> **If you are on v1.0, please update.** That build could not export figures to
-> PDF, SVG or EPS, and the figure compositor could not draw any panel
-> ([#1](../../issues/1)). Fixed in v1.0.1.
+> **On macOS, please update.** Earlier builds could close by themselves after a
+> while: Qt draws three of its mouse cursors from a bitmap, and on recent macOS
+> that conversion can fail long after the app started (typically once the
+> display configuration has changed — sleep/wake, an external monitor). v1.2
+> stops using those three cursors.
+>
+> **Windows:** the 1.2 installer is not up yet — it has to be built on a
+> Windows machine and will be added to this same release shortly. Until then,
+> download `Zirchron-1.0.1-windows-setup.exe`; it is unaffected by the macOS
+> crash above.
 
 ---
 
@@ -34,9 +41,9 @@ Zirchron runs on **Windows** and **macOS**. Go to the
 
 | System | Download |
 |---|---|
-| **macOS** 13+, Apple Silicon | `Zirchron-1.0.1-arm64.dmg` |
-| **macOS** 13+, Intel | `Zirchron-1.0.1-intel.dmg` |
-| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0.1-windows-setup.exe` |
+| **macOS** 13+, Apple Silicon | `Zirchron-1.2-arm64.dmg` |
+| **macOS** 13+, Intel | `Zirchron-1.2-intel.dmg` |
+| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0.1-windows-setup.exe` (1.2 coming shortly) |
 
 Step-by-step instructions for both systems, with troubleshooting, are in
 [INSTALL.md](INSTALL.md).
@@ -94,8 +101,8 @@ just above the macOS version:
 
 | That line says | Download |
 |---|---|
-| **Chip:** Apple M1 / M2 / M3 / M4 / M5 | `Zirchron-1.0.1-arm64.dmg` |
-| **Processor:** Intel Core i5 / i7 / i9 / Xeon | `Zirchron-1.0.1-intel.dmg` |
+| **Chip:** Apple M1 / M2 / M3 / M4 / M5 | `Zirchron-1.2-arm64.dmg` |
+| **Processor:** Intel Core i5 / i7 / i9 / Xeon | `Zirchron-1.2-intel.dmg` |
 
 Both files are the same Zirchron, compiled for a different processor. You do
 not need Rosetta, and downloading the wrong one is harmless — macOS simply
@@ -109,7 +116,7 @@ refuses to open it.
    icon next to a shortcut to your **Applications** folder.
 3. **Drag the Zirchron icon onto the Applications folder.** That is the whole
    installation — macOS apps are self-contained, there is no installer wizard.
-4. Eject the disk image (click the ⏏ symbol next to *Zirchron 1.0.1* in the
+4. Eject the disk image (click the ⏏ symbol next to *Zirchron 1.2* in the
    Finder sidebar). You can delete the `.dmg` afterwards.
 5. Open Zirchron from **Launchpad**, from the Applications folder, or via
    Spotlight (⌘ Space → "Zirchron").
