@@ -139,7 +139,7 @@ no longer need them.
 
 | Requirement | Value |
 |---|---|
-| macOS | 13 (Ventura) or later |
+| macOS | 14 (Sonoma) or later |
 | Processor | Apple Silicon (M1–M5) **or** Intel — one download for each |
 | Disk space | about 500 MB |
 
@@ -259,9 +259,9 @@ Almost always this means you downloaded the file built for the *other*
 processor. Go back to step 1, check the **Chip** / **Processor** line, and
 download the matching `.dmg`.
 
-**macOS says Zirchron "requires macOS 13 or later".**
+**macOS says Zirchron "requires macOS 14 or later".**
 Exactly what it says: your system is too old for this build. Updating macOS is
-the only route — there is no version of Zirchron for macOS 12 or earlier.
+the only route — there is no version of Zirchron for macOS 13 or earlier.
 
 **The first launch takes several seconds.**
 Normal. On the very first run the app builds an internal font cache and macOS

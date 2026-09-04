@@ -41,8 +41,8 @@ Zirchron runs on **Windows** and **macOS**. Go to the
 
 | System | Download |
 |---|---|
-| **macOS** 13+, Apple Silicon | `Zirchron-1.2-arm64.dmg` |
-| **macOS** 13+, Intel | `Zirchron-1.2-intel.dmg` |
+| **macOS** 14+, Apple Silicon | `Zirchron-1.2-arm64.dmg` |
+| **macOS** 14+, Intel | `Zirchron-1.2-intel.dmg` |
 | **Windows** 10 / 11 (64-bit) | `Zirchron-1.0.1-windows-setup.exe` (1.2 coming shortly) |
 
 Step-by-step instructions for both systems, with troubleshooting, are in
@@ -92,7 +92,7 @@ add an exception if needed.
 
 | | |
 |---|---|
-| **macOS** | 13 (Ventura) or later |
+| **macOS** | 14 (Sonoma) or later |
 | **Processor** | Apple Silicon **or** Intel — a separate download for each |
 | **Disk space** | ~500 MB |
 
