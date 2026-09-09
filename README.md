@@ -17,20 +17,30 @@ between spreadsheets, statistical packages and drawing programs.
 Developed at the **Laboratorio de Estudios Isotópicos (LEI)**, Instituto de
 Geociencias, UNAM (Juriquilla, México).
 
-> **Status: v1.2 — beta.** Zirchron is in active testing. If you find a bug or
+> **Status: v1.3 — beta.** Zirchron is in active testing. If you find a bug or
 > something behaves unexpectedly, please [open an issue](../../issues) — that
 > feedback is exactly what this release is for.
 >
-> **On macOS, please update.** Earlier builds could close by themselves after a
-> while: Qt draws three of its mouse cursors from a bitmap, and on recent macOS
-> that conversion can fail long after the app started (typically once the
-> display configuration has changed — sleep/wake, an external monitor). v1.2
-> stops using those three cursors.
+> **What is new in 1.3:** importing into a project that already had data no
+> longer freezes (and shows a progress bar), samples can be **merged** on
+> import, the panels tuck into a **side rail** so the diagrams can fill the
+> screen, the detailed results (weighted means with their MSWD, Ti, Data QA)
+> moved to their own floating window, analyses can be **excluded by hand** with
+> a reason, and there are two new tools for detrital work: **side-by-side
+> concordias** and **several crustal reworking lines** in the Hf plots. Full
+> list on the [release page](../../releases/latest).
 >
-> **Windows:** the 1.2 installer is not up yet — it has to be built on a
-> Windows machine and will be added to this same release shortly. Until then,
-> download `Zirchron-1.0.1-windows-setup.exe`; it is unaffected by the macOS
-> crash above.
+> **On macOS, please update.** Builds before 1.2 could close by themselves
+> after a while: Qt draws three of its mouse cursors from a bitmap, and on
+> recent macOS that conversion can fail long after the app started (typically
+> once the display configuration has changed — sleep/wake, an external
+> monitor). 1.2 and later stop using those three cursors.
+>
+> **Windows:** the 1.3 installer has to be built on a Windows machine and will
+> be added to the same release shortly. Until then the newest Windows build is
+> `Zirchron-1.0.1-windows-setup.exe`, on the
+> [v1.0.1 release page](../../releases/tag/v1.0.1); it is unaffected by the
+> macOS crash above, but it does not have the 1.2/1.3 improvements.
 
 ---
 
@@ -41,9 +51,9 @@ Zirchron runs on **Windows** and **macOS**. Go to the
 
 | System | Download |
 |---|---|
-| **macOS** 14+, Apple Silicon | `Zirchron-1.2-arm64.dmg` |
-| **macOS** 14+, Intel | `Zirchron-1.2-intel.dmg` |
-| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0.1-windows-setup.exe` (1.2 coming shortly) |
+| **macOS** 14+, Apple Silicon | `Zirchron-1.3-arm64.dmg` |
+| **macOS** 14+, Intel | `Zirchron-1.3-intel.dmg` |
+| **Windows** 10 / 11 (64-bit) | `Zirchron-1.0.1-windows-setup.exe` (1.3 coming shortly) |
 
 Step-by-step instructions for both systems, with troubleshooting, are in
 [INSTALL.md](INSTALL.md).
@@ -101,8 +111,8 @@ just above the macOS version:
 
 | That line says | Download |
 |---|---|
-| **Chip:** Apple M1 / M2 / M3 / M4 / M5 | `Zirchron-1.2-arm64.dmg` |
-| **Processor:** Intel Core i5 / i7 / i9 / Xeon | `Zirchron-1.2-intel.dmg` |
+| **Chip:** Apple M1 / M2 / M3 / M4 / M5 | `Zirchron-1.3-arm64.dmg` |
+| **Processor:** Intel Core i5 / i7 / i9 / Xeon | `Zirchron-1.3-intel.dmg` |
 
 Both files are the same Zirchron, compiled for a different processor. You do
 not need Rosetta, and downloading the wrong one is harmless — macOS simply
@@ -116,7 +126,7 @@ refuses to open it.
    icon next to a shortcut to your **Applications** folder.
 3. **Drag the Zirchron icon onto the Applications folder.** That is the whole
    installation — macOS apps are self-contained, there is no installer wizard.
-4. Eject the disk image (click the ⏏ symbol next to *Zirchron 1.2* in the
+4. Eject the disk image (click the ⏏ symbol next to *Zirchron 1.3* in the
    Finder sidebar). You can delete the `.dmg` afterwards.
 5. Open Zirchron from **Launchpad**, from the Applications folder, or via
    Spotlight (⌘ Space → "Zirchron").
