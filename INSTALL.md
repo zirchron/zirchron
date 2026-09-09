@@ -152,8 +152,8 @@ screen → **About This Mac**.
 
 | That line says | Your download |
 |---|---|
-| **Chip:** Apple M1, M2, M3, M4 or M5 | `Zirchron-1.2-arm64.dmg` |
-| **Processor:** Intel Core i5 / i7 / i9, or Xeon | `Zirchron-1.2-intel.dmg` |
+| **Chip:** Apple M1, M2, M3, M4 or M5 | `Zirchron-1.3-arm64.dmg` |
+| **Processor:** Intel Core i5 / i7 / i9, or Xeon | `Zirchron-1.3-intel.dmg` |
 
 Each file holds the same application, compiled for that processor. You do not
 need Rosetta, and picking the wrong one cannot damage anything — macOS just
@@ -166,8 +166,8 @@ refuses to open it, and you download the other.
 Go to the [Releases](../../releases) page of this repository and download the
 file that matches your processor (step 1):
 
-- **Apple Silicon** → `Zirchron-1.2-arm64.dmg` (about 96 MB)
-- **Intel** → `Zirchron-1.2-intel.dmg` (about 105 MB)
+- **Apple Silicon** → `Zirchron-1.3-arm64.dmg` (about 98 MB)
+- **Intel** → `Zirchron-1.3-intel.dmg` (about 107 MB)
 
 It will land in your **Downloads** folder.
 
@@ -188,7 +188,7 @@ of it.
    are self-contained bundles, so there is no setup wizard, and nothing is
    written elsewhere on your system.
 
-3. **Eject the disk image.** In the Finder sidebar, find *Zirchron 1.2* under
+3. **Eject the disk image.** In the Finder sidebar, find *Zirchron 1.3* under
    *Locations* and click the ⏏ symbol next to it. You can then delete the
    `.dmg` from Downloads.
 
